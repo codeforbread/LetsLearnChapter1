@@ -40,4 +40,21 @@ Untracked files:
         README.md
 
 
+Step 4: Create a commit
 
+ git commit -m "added first file commands.txt"
+[master (root-commit) 2dac3d4] added first file commands.txt
+ 1 file changed, 43 insertions(+)
+ create mode 100644 commands.txt
+
+
+ Step 5: Create a new branch
+
+  git checkout -b <my branch name>
+
+/var/www/html/git/LetsLearnChapter1-master$ git checkout -b develop
+M       commands.txt
+Switched to a new branch 'develop'
+
+/var/www/html/git/LetsLearnChapter1-master$ git checkout
+M       commands.txt
