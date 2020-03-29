@@ -92,4 +92,26 @@ Switched to a new branch 'feature/learning-git'
 
 
 
+##### merging the branch with develop #####
+
+/var/www/html/git/LetsLearnChapter1-master$ git checkout develop
+Switched to branch 'develop'
+
+/var/www/html/git/LetsLearnChapter1-master$ git pull origin develop
+
+/var/www/html/git/LetsLearnChapter1-master$ git merge --no-ff develop 
+Already up-to-date!
+Merge made by the 'recursive' strategy.
+
+
+##### pushing to feature branch #####
+
+/var/www/html/git/LetsLearnChapter1-master$ git push origin feature/learning-gi
+
+
+##### pushing to develop #####
+
+/var/www/html/git/LetsLearnChapter1-master$ git push origin feature/learning-gi
+
+
 next topic to learn git stash
