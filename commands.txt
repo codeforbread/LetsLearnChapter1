@@ -60,3 +60,24 @@ Switched to a new branch 'develop'
 M       commands.txt
 
 hi
+
+
+issue 1
+
+There isn't anything to compare. Nothing to compare, branches are entirely different commit histories
+
+solution 
+    syntax :-
+git checkout [BRANCH]   
+git branch master [BRANCH] -f   
+git checkout master   
+git push origin master -f
+
+
+actual :- 
+git checkout develop  
+git branch master develop -f   
+git checkout master   
+git push origin master -f
+
+
