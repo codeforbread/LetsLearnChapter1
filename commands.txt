@@ -81,3 +81,11 @@ git checkout master
 git push origin master -f
 
 
+##### Creating a new branch from already existing branch #####
+
+syntax :-
+git checkout branch1
+git checkout -b subbranch_of_b1 branch1
+
+/var/www/html/git/LetsLearnChapter1-master$ git checkout -b feature/learning-git develop
+Switched to a new branch 'feature/learning-git'
