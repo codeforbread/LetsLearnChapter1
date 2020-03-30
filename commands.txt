@@ -114,4 +114,18 @@ Merge made by the 'recursive' strategy.
 /var/www/html/git/LetsLearnChapter1-master$ git push origin feature/learning-gi
 
 
+##### To display configuration associated with git repo email, user #####
+
+/var/www/html/git/LetsLearnChapter1-master$ git config --list
+
+##### To set up local user.email, user.name for repo #####
+
+/var/www/html/git/LetsLearnChapter1-master$ git config user.name "codeforbread"
+/var/www/html/git/LetsLearnChapter1-master$ git config user.email "codersforbread@gmail.com"
+
+##### To set up global user.email, user.name for repo #####
+
+/var/www/html/git/LetsLearnChapter1-master$ git config --global user.name "codeforbread"
+/var/www/html/git/LetsLearnChapter1-master$ git config --global user.email "codersforbread@gmail.com"
+
 next topic to learn git stash
